@@ -3,7 +3,7 @@
  * @Author.email: amine.swayssia@gmail.com
  * @Date: 2020-09-02 15:35:33
  * @Last Modified by: amine.souissia
- * @Last Modified time: 2020-09-02 15:35:54
+ * @Last Modified time: 2020-09-03 13:50:42
  * Copyright (c) 2020 CodeLab360, Inc
  */
 
@@ -13,12 +13,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { RedirectComponent } from './redirect/redirect.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    RedirectComponent
   ],
   imports: [
     BrowserModule,
