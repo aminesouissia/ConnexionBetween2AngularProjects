@@ -1,31 +1,21 @@
 # ConnexionBetween2AngularProjects
-je voulais partager avec vous ce projet qui fait la connexion entre 2 projets Angular séparés avec deux versions différentes .
-Un projet avec la version 5 et l'autre avec la derniére version qui est la 10 .
-je voulais partager ce projet avec vous car tout simplement j'avais ce probléme quand mon client ma demandé de lui faire un projet Angular from scratch version 8 et il veux connecter un autre projets Angular version 5 se sont 2 projets Angular Séparés j'insiste à ce terme car si c'était juste de faire des sous projets Angular dans un seul projets je peux vous dire que c'est simple mais cette demande et de garder tout les fichiers du projet et le connecter à un autre projet .
-PS: J'ai demandé autour de moi et se sont plus experimenté que moi et ils m'ont dit que c'est pas possible !!
-et bah c'est possible . Les Details ci-dessous:
 
-1: Tout d'abord faut cloner  ou bien  telecharger le projet. 
+1: First of all, you have to clone or download the project.
 
-2:avoir 2 version d'Angular Cli (pour le projet Angular 5 il faut la version 1.6 et pour le projet Angular 10 il faut la version > 10) ne pas faire -g !! il faut les installer en local pas en global.
+2: have 2 version of Angular Cli (for the Angular 5 project you need version 1.6 and for the Angular 10 project you need version> 10) do not do -g !! they must be installed locally not globally.
 
-3:dans le projet Angular 5 : npm install @angular/cli@1.6
+3: in the Angular project 5: npm install @ angular / cli @ 1.6
 
-4:dans le projet Angular 10 : npm install @angular/cli@latest ou npm install @angular/cli@10
+4: in the Angular 10 project: npm install @ angular / cli @ latest or npm install @ angular / cli @ 10
 
-5:Apres que les 2 versions installés faire npm install dans chaque projet pour télecharger les nodes modules 
+5: After the 2 versions installed do npm install in each project to download the nodes modules
 
-6:sur le projet Angular 5 faire : ng serve --port 1200
+6: on the Angular 5 project do: ng serve --port 1200
 
-7:sur le projet Angular 10 faire : ng serve --port 1100
+7: on the Angular 10 project do: ng serve --port 1100
 
-8: la normalement vous aurez les 2 projets ouverts simultanément .
+8: normally you will have the 2 projects open simultaneously.
 
-Voilà ! Vous aurez un buttom dans chaque projet pour aller au deuxiéme projet et vice versa .
+Here ! You will have a buttom in each project to go to the second project and vice versa.
 
-==> J'éspere que j'étais clair et je suis disponible pour toute question .
-
-
-
-
-
+==> I hope I was clear and I am available for any questions.
